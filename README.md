@@ -1,16 +1,16 @@
-# Cyberint Premium IoC
+# Cyberint Intelligence IoC
 
 Publisher: Check Point Cyberint <br>
 Connector Version: 1.0.1 <br>
 Product Vendor: Check Point Cyberint <br>
-Product Name: Cyberint Premium IoC <br>
+Product Name: Cyberint Intelligence IoC <br>
 Minimum Product Version: 6.3.0
 
-Cyberint Premium IoC integration brings enriched threat intelligence from the Argos Edge™ Digital Risk Protection Platform into Splunk SOAR using the Cyberint Premium IoC Enrichment and Feed APIs, enabling automated playbooks and incident workflows on premium IOC data.
+Cyberint Intelligence IoC integration brings enriched threat intelligence from the Argos Edge™ Digital Risk Protection Platform into Splunk SOAR using the Cyberint Intelligence IoC Enrichment and Feed APIs, enabling automated playbooks and incident workflows on intelligence IOC data.
 
 ### Configuration variables
 
-This table lists the configuration variables required to operate Cyberint Premium IoC. These variables are specified when configuring a Cyberint Premium IoC asset in Splunk SOAR.
+This table lists the configuration variables required to operate Cyberint intelligence IoC. These variables are specified when configuring a Cyberint Intelligence IoC asset in Splunk SOAR.
 
 VARIABLE | REQUIRED | TYPE | DESCRIPTION
 -------- | -------- | ---- | -----------
@@ -25,7 +25,7 @@ VARIABLE | REQUIRED | TYPE | DESCRIPTION
 [ioc - enrich ipv4](#action-ioc---enrich-ipv4) - Enrich an IPv4 address <br>
 [ioc - enrich url](#action-ioc---enrich-url) - Enrich a URL <br>
 [ioc - enrich domain](#action-ioc---enrich-domain) - Enrich a domain <br>
-[on poll](#action-on-poll) - Ingest the daily premium IOC feed
+[on poll](#action-on-poll) - Ingest the daily intelligence IOC feed
 
 ## action: 'test connectivity'
 
@@ -136,7 +136,7 @@ summary.total_objects_successful | numeric | | |
 
 ## action: 'on poll'
 
-Ingest the daily premium IOC feed
+Ingest the daily intelligence IOC feed
 
 Type: **ingest** <br>
 Read only: **True**

@@ -34,7 +34,7 @@ from cyberintpremiumioc_consts import (
 
 class CyberintpremiumiocConnector(BaseConnector):
     """
-    Cyberint Premium IoC connector.
+    Cyberint Intelligence IoC connector.
     """
 
     def __init__(self):

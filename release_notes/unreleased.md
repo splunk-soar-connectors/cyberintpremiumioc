@@ -1,2 +1,2 @@
 **Unreleased**
-* Cyberint Premium IoC initial release
+* Cyberint Intelligence initial release
