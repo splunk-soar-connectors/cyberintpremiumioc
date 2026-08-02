@@ -442,7 +442,7 @@ class CyberintpremiumiocConnector(BaseConnector):
         self._base_url = config.get("base_url")
         self._access_token = config.get("access_token")
         self._customer_name = config.get("customer_name")
-        self._verify = config.get("verify_server_cert", True)
+        self._verify = config.get("verify_server_cert") is not False
 
         return phantom.APP_SUCCESS
 
